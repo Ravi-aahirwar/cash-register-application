@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Manager Application</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- HTML -->
+    <div class="cash-manager">
+        <div class="manage-heading">
+            <h2> Cash Register</h2>
+            <h5>This is cash Register app where you can enter the bill amount and amount paid by the customer and get
+                the balance cash denomination.</h5>
+        </div>
+        <div class="input-amount">
+            <input class="input" type="number" id="billAmount" placeholder="Enter bill Amount" />
+            <button id="btnHandle">Next</button>
+            <input class="input" type="number" id="customerAmount" placeholder="Enter customer Amount" />
+        </div>
+
+        <div id="TableDisplay">
+            <table>
+                <caption>
+                    Return amount
+                </caption>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="returnNote"></td>
+                    <td class="returnNote"></td>
+                    <td class="returnNote"></td>
+                    <td class="returnNote"></td>
+                    <td class="returnNote"></td>
+                    <td class="returnNote"></td>
+                    <td class="returnNote"></td>
+                </tr>
+                <tr>
+                    <th>Notes</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <p>Made with ❤️ by <a href="https://github.com/Ravi-aahirwar"> Ravi Aahirwar</a></p>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script src="./App.js"></script>
+</body>
+
+</html>

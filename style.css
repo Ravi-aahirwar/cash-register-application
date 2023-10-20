@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary-color: #4B5563;
+    --secondary-color: #D1D5DB;
+    --text-color: #fff;
+    --dark-color: darkblue;
+    --blue-border: 1px solid darkblue;
+    --margin-all: 5px 10px;
+    --padding-all: 5px 10px;
+    --text-center: center;
+}
+
+.cash-manager {
+    margin: 20px auto;
+    height: 100%;
+    width: 70%;
+    border: var(--blue-border);
+}
+
+.manage-heading h2,
+h5 {
+    text-align: center;
+    font-weight: 200;
+    margin: 5px 5px;
+    color: var(--dark-color);
+    word-spacing: 4px;
+}
+.manage-heading,
+h5{
+    font-size: 15px;
+}
+
+.input-amount {
+    height: 100%;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    height: 30px;
+    width: 270px;
+    border-radius: 5px;
+    outline: none;
+    border: var(--blue-border);
+    color: var(--primary-color);
+    padding: var(--padding-all);
+
+}
+
+#btnHandle {
+    border: var(--blue-border);
+    padding: 8px 45px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 22px;
+    transition: background 0.5s;
+    background: white;
+}
+
+#btnHandle:hover {
+    background: rgb(40, 40, 105);
+    color: white;
+}
+
+caption {
+    margin: var(--margin-all);
+    color: var(--primary-color);
+}
+
+#TableDisplay {
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+table td,
+th {
+    border: 1px solid var(--dark-color);
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+#TableDisplay {
+    display: none;
+}
+
+#customerAmount {
+    display: none;
+}
+.footer p{
+    text-align: var(--text-center);
+}
+.footer{
+    margin: var(--margin-all);
+}
+.footer p a:hover{
+    color: var(--primary-color);
+    text-decoration: none;
+}
