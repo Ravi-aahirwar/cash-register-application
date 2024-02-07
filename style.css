@@ -9,13 +9,15 @@
     --primary-color: #4B5563;
     --secondary-color: #D1D5DB;
     --text-color: #fff;
-    --dark-color: darkblue;
+    --dark-color: rgb(19, 19, 86);
     --blue-border: 1px solid darkblue;
     --margin-all: 5px 10px;
     --padding-all: 5px 10px;
     --text-center: center;
 }
-
+body{
+    background-color: var(--dark-color);
+}
 .cash-manager {
     margin: 20px auto;
     height: 100%;
